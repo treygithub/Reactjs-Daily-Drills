@@ -8,7 +8,7 @@ class App extends Component {
     let loop = showArray.map((e,index)=>{
       return(
       <h3 key={index}>{e}</h3>
-      )
+      ) 
     })
     return (
       <div className="App">
