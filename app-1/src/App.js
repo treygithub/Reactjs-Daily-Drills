@@ -5,7 +5,7 @@ function updateState  (value) {
     return {
     message : value
   }
-}
+} 
 
 class App extends Component {
   state={
