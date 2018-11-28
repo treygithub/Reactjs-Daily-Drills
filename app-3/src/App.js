@@ -15,7 +15,7 @@ class App extends Component {
     }).map( ( e,i ) => {
       return <h3 key = { i }> { e  } </h3>
     }) 
-    return ( 
+    return (  
       <div className="App">
         <div className="App-header">
         <input onChange={(e)=>this.handleChange2(e.target.value)} type="text"></input>
