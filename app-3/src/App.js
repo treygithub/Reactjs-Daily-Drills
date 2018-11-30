@@ -9,7 +9,7 @@ class App extends Component {
   handleChange2 = ( filter ) => {
     this.setState({ filterString : filter })
   }
-  render() {
+  render() { 
     let looper = this.state.list.filter(( e, i ) => {
       return e.includes( this.state.filterString );
     }).map( ( e,i ) => {
