@@ -9,7 +9,7 @@ function updateState  (value) {
 
 class App extends Component {
   state={
-    message:""
+    message:" "
   }
 
   handleMessage = (value) =>{
