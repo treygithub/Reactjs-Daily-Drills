@@ -7,7 +7,7 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <Image Myimage={ "./Myimage.jpg" } />
+        <Image Myimage={ "./Myimage.jpg" } /> 
       </div>
     );
   }
