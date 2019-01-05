@@ -16,7 +16,7 @@ class App extends Component {
     console.log(this.state);
     return (
       <div className="App">
-         <Todo handleAddTask={this.handleAddTask}/>
+         <Todo handleAddTask={this.handleAddTask}/> 
          <List tasks={this.state.list}/>
       </div>
     );
